@@ -15,11 +15,11 @@ function operate(num1, num2, operator) {
 
 // Initialize display value
 
-const displayValue = document.querySelector("#display");
+const displayValue = document.querySelector(".display");
 
 // Clear button for display
 
 const clearButton = document.querySelector("#clear");
 clearButton.addEventListener("click",() => {
-	displayValue.textContent = 0;
+	displayValue.value = "0";
 });
